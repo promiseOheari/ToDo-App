@@ -1,0 +1,35 @@
+ .todoForm{
+    width: 60%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: white;
+   
+} 
+
+
+.todoInput{
+     width: 70%;
+     height:100%;
+     padding: 10px 15px;
+     box-sizing: border-box;
+     border: 2px solid#00d0ff;
+     outline: none;
+     border-top-left-radius: 8px;
+     border-bottom-left-radius:8px ;
+   
+}
+
+.formBtn{
+    width: 30%;
+    height:100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:8px ;
+    background-color: #00d0ff;
+    outline: none;
+    border: 2px solid#00d0ff;
+}
