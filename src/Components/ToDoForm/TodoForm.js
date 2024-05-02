@@ -7,9 +7,10 @@ const [inputs, setInput]= useState("")
 const handleSubmit = (e)=>{
 e.preventDefault();
 AddToDo(inputs)
-
+setInput("")
 // console.log(inputs)
 }
+ 
   return (
     <form className={prom.todoForm} onSubmit={handleSubmit}>
       
@@ -17,7 +18,7 @@ AddToDo(inputs)
             setInput(e.target.value)
             console.log(inputs)
         }} />
-        <button type='submit' className={prom.formBtn}>Add Schedule</button>
+        <button type='submit' className={prom.formBtn}>Add Task</button>
       
     </form>
   )

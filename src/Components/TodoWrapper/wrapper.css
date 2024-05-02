@@ -14,10 +14,6 @@ body{
     flex-direction: column;
 }
 
-.completed {
-    color: red; /* Change text color to red */
-    text-decoration: line-through red; /* Apply line-through with red color */
-    /* Optionally, adjust the width/thickness of the line-through */
-    text-decoration-thickness: 2px;
-  }
-  
+.completed{
+    text-decoration: line-through;
+}
