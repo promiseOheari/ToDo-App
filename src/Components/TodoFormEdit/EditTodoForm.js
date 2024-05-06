@@ -1,27 +1,27 @@
-// import React, { useState } from 'react'
-// import prom from "../ToDoForm/todoForm.module.css"
+import React, { useState } from 'react'
+import prm from "./edit.module.css"
 
-// function EditTodoForm({editToDo, task}) {
-// const [inputs, setInput] = useState(task.task);
+function EditTodoForm({editTodo, task}) {
+const [inputs, setInput] = useState(task.task);
 
-// const handleSubmit = (e)=>{
-// e.preventDefault();
-// editToDo(inputs, task.id)
-// setInput("")
-// console.log(inputs)
-// }
+const handleSubmit = (e)=>{
+e.preventDefault();
+editTodo(inputs, task.id)
+setInput("")
+console.log(inputs, "ffggg")
+}
  
-//   return (
-//     <form className={prom.todoForm} onSubmit={handleSubmit}>
+  return (
+    <form className={prm.todoForm} onSubmit={handleSubmit}>
       
-//         <input type='text' value={inputs} placeholder='update Task'className={prom.todoInput} onChange={(e)=>{
-//             setInput(e.target.value)
-//             console.log(inputs)
-//         }} />
-//         <button type='submit' className={prom.formBtn}>update Task</button>
+        <input type='text' value={inputs} placeholder='update Task' className={prm.todoInput} onChange={(e)=>{
+            setInput(e.target.value)
+            console.log(inputs)
+        }} />
+        <button type='submit' className={prm.formBtn}>update Task</button>
       
-//     </form>
-//   )
-// }
+    </form>
+  )
+}
 
-// export default EditTodoForm
+export default EditTodoForm
