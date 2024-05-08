@@ -18,12 +18,12 @@ import EditTodoForm from '../TodoFormEdit/EditTodoForm';
 
 
         <div className='flex items-center'>
-        <FaRegEdit className='mr-[10px] size-[24px]' 
+        <FaRegEdit className='mr-[10px] cursor-pointer size-[24px]' 
         onClick={()=>{
           editTodo(task.id)
         }} 
         />
-        <RiDeleteBin6Line className=' size-[24px] hover:text-[red] transition-all duration-[0.90s] ease-in-out'
+        <RiDeleteBin6Line className=' cursor-pointer size-[24px] hover:text-[red] transition-all duration-[0.90s] ease-in-out'
          onClick={()=>{
           deleteTodo(task.id)}}
 
