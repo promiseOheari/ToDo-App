@@ -47,12 +47,13 @@
 @media (max-width:768px) {
     .todoForm{
         width: 100%;
-        background-color: brown;
       
    }
 
    .todoInput{
     width: 70%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius:8px ;
    }
 
    .formBtn{
