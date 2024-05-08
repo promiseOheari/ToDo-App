@@ -18,7 +18,7 @@ setInput("")
             setInput(e.target.value)
             console.log(inputs)
         }} />
-        <button type='submit' className={prom.formBtn}>Add Task</button>
+        <button type='submit' className={prom.formBtn}>Add</button>
       
     </form>
   )

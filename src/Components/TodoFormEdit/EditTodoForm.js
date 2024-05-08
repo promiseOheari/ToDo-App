@@ -18,7 +18,7 @@ console.log(inputs, "ffggg")
             setInput(e.target.value)
             console.log(inputs)
         }} />
-        <button type='submit' className={prm.formBtn}>update Task</button>
+        <button type='submit' className={prm.formBtn}>Update</button>
       
     </form>
   )

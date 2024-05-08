@@ -8,36 +8,29 @@ body{
     min-height: 40vh;
    padding:50px auto ;
    padding-bottom: 50px;
-    background-color: rgb(53, 6, 53);
+   background-color: #12343b;
+    /* background-color: rgb(53, 6, 53); */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    opacity: 10;
+    border-radius: 10px;
+    box-shadow: 3px 6px 40px black;
 }
 
 .completed {
-    color: red; /* Change text color to red */
-    text-decoration: line-through red; /* Apply line-through with red color */
-    /* Optionally, adjust the width/thickness of the line-through */
+    color: red; 
+    text-decoration: line-through red; 
     text-decoration-thickness: 2px;
   }
-  
-  @media (max-width:768px) {
+
+
+   @media (max-width:768px) {
     .wrap{
         width: 100%;
-        min-height: 70vh;
-       padding:50px auto ;
-       padding-bottom: 50px;
-        background-color: rgb(53, 6, 53);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        opacity: 10;
-        
+        min-height: 100vh;
+       padding-right:20px ;
+       padding-left: 20px;
     }
-
-    .wrap:nth-child(1){
-    margin-bottom: 100px;
-  }}
+}  
+  

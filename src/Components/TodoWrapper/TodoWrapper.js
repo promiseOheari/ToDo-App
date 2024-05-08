@@ -39,7 +39,7 @@ const editTask = ( task, id) =>{
 
   return (
     <div className={prom.wrap}>
-        <h1 className='text-white text-[32px] h-[150px] pt-[50px] md:mb-5 lg:mb-0'>My Schedules for Today!</h1>
+        <h1 className='text-[#e4e4e4] text-[32px] py-[40px] font-semibold'>My Todo-List!!!</h1>
          <TodoForm AddToDo={AddTodo}/>
          {todos.map((todo, index)=>(
           todo.isEditing ? (
